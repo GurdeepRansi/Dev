@@ -57,7 +57,7 @@ public class TestSignIn {
 		
 		driver.findElement(By.id("tab_account")).click();
 		
-		driver.findElement(By.cssSelector("#tabs-func > li.dropdown > div > a.si_menuitem_last")).click();
+		driver.findElement(By.cssSelector("#tabs-func > li.dropdown > div > a.si_menuitem_last")).click();// this is to find elements
 		
 		driver.quit();// THis will close all the browsers
 		
