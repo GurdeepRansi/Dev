@@ -59,7 +59,7 @@ public class TestSignIn {
 		
 		driver.findElement(By.cssSelector("#tabs-func > li.dropdown > div > a.si_menuitem_last")).click();
 		
-		driver.quit();
+		driver.quit();// THis will close all the browsers
 		
 		//ExcelUtils.setCellData("pass", 1, 3);
 		
